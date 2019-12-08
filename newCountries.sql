@@ -1,0 +1,1 @@
+SELECT countryId FROM Competitions GROUP BY countryId HAVING MIN(year) = 2019
